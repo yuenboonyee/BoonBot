@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F648179C1C9905DB005E35CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F648179B1C9905DB005E35CB /* main.m */; };
+		F648179F1C9905DB005E35CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F648179E1C9905DB005E35CB /* AppDelegate.m */; };
+		F64817A21C9905DB005E35CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64817A11C9905DB005E35CB /* ViewController.m */; };
+		F64817A51C9905DB005E35CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64817A31C9905DB005E35CB /* Main.storyboard */; };
+		F64817A71C9905DB005E35CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64817A61C9905DB005E35CB /* Assets.xcassets */; };
+		F64817AA1C9905DB005E35CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64817A81C9905DB005E35CB /* LaunchScreen.storyboard */; };
+		F64817B51C9905DB005E35CB /* BoonBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64817B41C9905DB005E35CB /* BoonBotTests.m */; };
+		F64817C01C9905DB005E35CB /* BoonBotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64817BF1C9905DB005E35CB /* BoonBotUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F64817B11C9905DB005E35CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F648178F1C9905DB005E35CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64817961C9905DB005E35CB;
+			remoteInfo = BoonBot;
+		};
+		F64817BC1C9905DB005E35CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F648178F1C9905DB005E35CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64817961C9905DB005E35CB;
+			remoteInfo = BoonBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F64817971C9905DB005E35CB /* BoonBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoonBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F648179B1C9905DB005E35CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F648179D1C9905DB005E35CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F648179E1C9905DB005E35CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F64817A01C9905DB005E35CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F64817A11C9905DB005E35CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F64817A41C9905DB005E35CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F64817A61C9905DB005E35CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F64817A91C9905DB005E35CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64817AB1C9905DB005E35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64817B01C9905DB005E35CB /* BoonBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoonBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64817B41C9905DB005E35CB /* BoonBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoonBotTests.m; sourceTree = "<group>"; };
+		F64817B61C9905DB005E35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64817BB1C9905DB005E35CB /* BoonBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoonBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64817BF1C9905DB005E35CB /* BoonBotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoonBotUITests.m; sourceTree = "<group>"; };
+		F64817C11C9905DB005E35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64817941C9905DB005E35CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64817AD1C9905DB005E35CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64817B81C9905DB005E35CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F648178E1C9905DB005E35CB = {
+			isa = PBXGroup;
+			children = (
+				F64817991C9905DB005E35CB /* BoonBot */,
+				F64817B31C9905DB005E35CB /* BoonBotTests */,
+				F64817BE1C9905DB005E35CB /* BoonBotUITests */,
+				F64817981C9905DB005E35CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F64817981C9905DB005E35CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64817971C9905DB005E35CB /* BoonBot.app */,
+				F64817B01C9905DB005E35CB /* BoonBotTests.xctest */,
+				F64817BB1C9905DB005E35CB /* BoonBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64817991C9905DB005E35CB /* BoonBot */ = {
+			isa = PBXGroup;
+			children = (
+				F648179D1C9905DB005E35CB /* AppDelegate.h */,
+				F648179E1C9905DB005E35CB /* AppDelegate.m */,
+				F64817A01C9905DB005E35CB /* ViewController.h */,
+				F64817A11C9905DB005E35CB /* ViewController.m */,
+				F64817A31C9905DB005E35CB /* Main.storyboard */,
+				F64817A61C9905DB005E35CB /* Assets.xcassets */,
+				F64817A81C9905DB005E35CB /* LaunchScreen.storyboard */,
+				F64817AB1C9905DB005E35CB /* Info.plist */,
+				F648179A1C9905DB005E35CB /* Supporting Files */,
+			);
+			path = BoonBot;
+			sourceTree = "<group>";
+		};
+		F648179A1C9905DB005E35CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F648179B1C9905DB005E35CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F64817B31C9905DB005E35CB /* BoonBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				F64817B41C9905DB005E35CB /* BoonBotTests.m */,
+				F64817B61C9905DB005E35CB /* Info.plist */,
+			);
+			path = BoonBotTests;
+			sourceTree = "<group>";
+		};
+		F64817BE1C9905DB005E35CB /* BoonBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F64817BF1C9905DB005E35CB /* BoonBotUITests.m */,
+				F64817C11C9905DB005E35CB /* Info.plist */,
+			);
+			path = BoonBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64817961C9905DB005E35CB /* BoonBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64817C41C9905DB005E35CB /* Build configuration list for PBXNativeTarget "BoonBot" */;
+			buildPhases = (
+				F64817931C9905DB005E35CB /* Sources */,
+				F64817941C9905DB005E35CB /* Frameworks */,
+				F64817951C9905DB005E35CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoonBot;
+			productName = BoonBot;
+			productReference = F64817971C9905DB005E35CB /* BoonBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64817AF1C9905DB005E35CB /* BoonBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64817C71C9905DB005E35CB /* Build configuration list for PBXNativeTarget "BoonBotTests" */;
+			buildPhases = (
+				F64817AC1C9905DB005E35CB /* Sources */,
+				F64817AD1C9905DB005E35CB /* Frameworks */,
+				F64817AE1C9905DB005E35CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64817B21C9905DB005E35CB /* PBXTargetDependency */,
+			);
+			name = BoonBotTests;
+			productName = BoonBotTests;
+			productReference = F64817B01C9905DB005E35CB /* BoonBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F64817BA1C9905DB005E35CB /* BoonBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64817CA1C9905DB005E35CB /* Build configuration list for PBXNativeTarget "BoonBotUITests" */;
+			buildPhases = (
+				F64817B71C9905DB005E35CB /* Sources */,
+				F64817B81C9905DB005E35CB /* Frameworks */,
+				F64817B91C9905DB005E35CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64817BD1C9905DB005E35CB /* PBXTargetDependency */,
+			);
+			name = BoonBotUITests;
+			productName = BoonBotUITests;
+			productReference = F64817BB1C9905DB005E35CB /* BoonBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F648178F1C9905DB005E35CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Serene IT";
+				TargetAttributes = {
+					F64817961C9905DB005E35CB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F64817AF1C9905DB005E35CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F64817961C9905DB005E35CB;
+					};
+					F64817BA1C9905DB005E35CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F64817961C9905DB005E35CB;
+					};
+				};
+			};
+			buildConfigurationList = F64817921C9905DB005E35CB /* Build configuration list for PBXProject "BoonBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F648178E1C9905DB005E35CB;
+			productRefGroup = F64817981C9905DB005E35CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64817961C9905DB005E35CB /* BoonBot */,
+				F64817AF1C9905DB005E35CB /* BoonBotTests */,
+				F64817BA1C9905DB005E35CB /* BoonBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64817951C9905DB005E35CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64817AA1C9905DB005E35CB /* LaunchScreen.storyboard in Resources */,
+				F64817A71C9905DB005E35CB /* Assets.xcassets in Resources */,
+				F64817A51C9905DB005E35CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64817AE1C9905DB005E35CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64817B91C9905DB005E35CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64817931C9905DB005E35CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64817A21C9905DB005E35CB /* ViewController.m in Sources */,
+				F648179F1C9905DB005E35CB /* AppDelegate.m in Sources */,
+				F648179C1C9905DB005E35CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64817AC1C9905DB005E35CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64817B51C9905DB005E35CB /* BoonBotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64817B71C9905DB005E35CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64817C01C9905DB005E35CB /* BoonBotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64817B21C9905DB005E35CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64817961C9905DB005E35CB /* BoonBot */;
+			targetProxy = F64817B11C9905DB005E35CB /* PBXContainerItemProxy */;
+		};
+		F64817BD1C9905DB005E35CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64817961C9905DB005E35CB /* BoonBot */;
+			targetProxy = F64817BC1C9905DB005E35CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F64817A31C9905DB005E35CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64817A41C9905DB005E35CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F64817A81C9905DB005E35CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64817A91C9905DB005E35CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64817C21C9905DB005E35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F64817C31C9905DB005E35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64817C51C9905DB005E35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoonBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.BoonBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F64817C61C9905DB005E35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoonBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.BoonBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F64817C81C9905DB005E35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoonBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.BoonBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoonBot.app/BoonBot";
+			};
+			name = Debug;
+		};
+		F64817C91C9905DB005E35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoonBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.BoonBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoonBot.app/BoonBot";
+			};
+			name = Release;
+		};
+		F64817CB1C9905DB005E35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoonBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.BoonBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BoonBot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F64817CC1C9905DB005E35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoonBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.BoonBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BoonBot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64817921C9905DB005E35CB /* Build configuration list for PBXProject "BoonBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64817C21C9905DB005E35CB /* Debug */,
+				F64817C31C9905DB005E35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64817C41C9905DB005E35CB /* Build configuration list for PBXNativeTarget "BoonBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64817C51C9905DB005E35CB /* Debug */,
+				F64817C61C9905DB005E35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F64817C71C9905DB005E35CB /* Build configuration list for PBXNativeTarget "BoonBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64817C81C9905DB005E35CB /* Debug */,
+				F64817C91C9905DB005E35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F64817CA1C9905DB005E35CB /* Build configuration list for PBXNativeTarget "BoonBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64817CB1C9905DB005E35CB /* Debug */,
+				F64817CC1C9905DB005E35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F648178F1C9905DB005E35CB /* Project object */;
+}
